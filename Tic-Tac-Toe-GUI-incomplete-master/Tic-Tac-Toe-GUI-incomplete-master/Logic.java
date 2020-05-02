@@ -19,7 +19,7 @@ public class Logic
                 
             }
             else{
-                square[rowMove][colMove].setText("X");
+                square[rowMove][colMove].setText(startingPlayer);
             }
         }
         if(startingPlayer=="O"){
@@ -27,7 +27,7 @@ public class Logic
                 square[rowMove][colMove].setText("X");
             }
             else{
-                square[rowMove][colMove].setText("O");
+                square[rowMove][colMove].setText(startingPlayer);
             }
     }
 
